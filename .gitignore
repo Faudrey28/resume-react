@@ -1,6 +1,6 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/node,macos,react,visualstudiocode
-# Edit at https://www.toptal.com/developers/gitignore?templates=node,macos,react,visualstudiocode
+# Created by https://www.toptal.com/developers/gitignore/api/yarn,node,visualstudiocode,macos,react
+# Edit at https://www.toptal.com/developers/gitignore?templates=yarn,node,visualstudiocode,macos,react
 
 ### macOS ###
 # General
@@ -213,4 +213,21 @@ sketch
 # Ignore code-workspaces
 *.code-workspace
 
-# End of https://www.toptal.com/developers/gitignore/api/node,macos,react,visualstudiocode
+### yarn ###
+# https://yarnpkg.com/getting-started/qa#which-files-should-be-gitignored
+
+.yarn/*
+!.yarn/releases
+!.yarn/patches
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+
+# if you are NOT using Zero-installs, then:
+# comment the following lines
+!.yarn/cache
+
+# and uncomment the following lines
+# .pnp.*
+
+# End of https://www.toptal.com/developers/gitignore/api/yarn,node,visualstudiocode,macos,react
