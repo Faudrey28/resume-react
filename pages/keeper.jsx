@@ -25,7 +25,11 @@ const keeper = () => {
         <div className="col-span-4">
           <p>Project</p>
           <h2>Overview</h2>
-          <p>This app was built using React JS. Users are able to .....</p>
+          <p>
+            This is a simple clone/imitation of Google Keep made with React. It
+            uses React Hooks, state, props, and array mapping to allow for the
+            creation and deletion of notes.
+          </p>
           <a href="https://github.com/Faudrey28/todolist" target="_blank">
             <button className="px-8 py-2 mt-4">Code</button>
           </a>
