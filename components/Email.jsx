@@ -20,22 +20,25 @@ const ContactForm = () => {
       return;
     }
 
-    emailjs
-      .sendForm(
-        process.env.REACT_APP_EMAILJS_SERVICE_ID,
-        process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
-        e.target,
-        process.env.REACT_APP_EMAILJS_USER_ID
-      )
-      .then(
-        (result) => {
-          e.target.reset();
-          toast.success("Email sent!");
-        },
-        (error) => {
-          toast.error("Error, please try again!");
-        }
-      );
+    let emailPromise = emailjs.sendForm(
+      ":)",
+      ":)",
+      e.target,
+      ":)"
+    );
+
+    toast.promise(emailPromise, {
+      pending: "Sending...",
+      success: "Email sent!",
+      error: "Error, please try again!",
+    });
+
+    emailPromise.then(
+      (result) => {
+        e.target.reset();
+      },
+      (error) => {}
+    );
   };
 
   return (
@@ -84,7 +87,7 @@ const ContactForm = () => {
           />
           <ToastContainer
             position="bottom-center"
-            autoClose={8000}
+            autoClose={5000}
             hideProgressBar={false}
             newestOnTop={false}
             closeOnClick

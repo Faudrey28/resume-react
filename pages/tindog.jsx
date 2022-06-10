@@ -17,7 +17,7 @@ const tindog = () => {
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
           <h2 className="py-2">Tindog</h2>
-          <h3>Html, Css and Bootstrap</h3>
+          <h3>Html, CSS and Bootstrap</h3>
         </div>
       </div>
 
@@ -29,8 +29,8 @@ const tindog = () => {
             This is a simple web page for dogs. It is a Startup landing page for
             a fictional application named TinDog. TinDog allows the user to find
             other dogs & their owners nearby in the swipe left/right style made
-            famous by Tinder.We build it by using some basic technologies like
-            Html, Css and Bootstrap.
+            famous by Tinder. We build it by using some basic technologies like
+            Html, CSS and Bootstrap.
           </p>
           <a href="https://github.com/Faudrey28/tindog" target="_blank">
             <button className="px-8 py-2 mt-4">Code</button>
