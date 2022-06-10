@@ -26,6 +26,7 @@ const Projects = () => {
             backgroundImg={tindogImg}
             projectUrl='/tindog'
           />
+          <h3 className='py-4'>More to come.</h3>
         </div>
       </div>
     </div>
