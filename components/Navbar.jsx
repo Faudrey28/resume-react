@@ -52,8 +52,8 @@ const Navbar = () => {
           <Image
             src="/../public/assets/aft.webp"
             alt="/"
-            width="100"
-            height="50"
+            width="80"
+            height="30"
           />
         </Link>
         <div>
