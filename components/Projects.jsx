@@ -4,6 +4,8 @@ import Link from 'next/link';
 import React from 'react';
 import tindogImg from '../public/assets/projects/tindog.webp';
 import keeperImg from '../public/assets/projects/keeper.webp';
+import dbankImg from '../public/assets/projects/dbank.webp';
+
 
 import ProjectItem from './ProjectItem';
 
@@ -16,6 +18,11 @@ const Projects = () => {
         </p>
         <h2 className='py-4'>Bootcamp - What I've Built</h2>
         <div className='grid md:grid-cols-2 gap-8'>
+        <ProjectItem
+            title='Decentralized App DBANK'
+            backgroundImg={dbankImg}
+            projectUrl='/dbank'
+          />
         <ProjectItem
             title='Keeper Note Taker'
             backgroundImg={keeperImg}
