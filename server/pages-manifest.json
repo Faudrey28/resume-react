@@ -1,0 +1,10 @@
+{
+  "/_error": "pages/_error.js",
+  "/dbank": "pages/dbank.html",
+  "/keeper": "pages/keeper.html",
+  "/_app": "pages/_app.js",
+  "/": "pages/index.html",
+  "/tindog": "pages/tindog.html",
+  "/_document": "pages/_document.js",
+  "/404": "pages/404.html"
+}
