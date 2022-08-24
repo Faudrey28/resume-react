@@ -1,16 +1,22 @@
 {
   "name": "audrey-portfolio",
+  "homepage": "https://audreyfocant.com/",
   "version": "0.1.0",
   "private": true,
+  "license": "UNLICENSED",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "export": "next export",
+    "lint": "next lint",
+    "predeploy": "yarn build && yarn export && touch ./out/.nojekyll && echo 'audreyfocant.com' > ./out/CNAME",
+    "deploy": "gh-pages -d out -t true"
   },
   "dependencies": {
     "emailjs": "^4.0.0",
     "emailjs-com": "^3.2.0",
+    "gh-pages": "^4.0.0",
     "next": "12.1.6",
     "react": "18.1.0",
     "react-dom": "18.1.0",
