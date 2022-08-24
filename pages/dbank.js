@@ -16,7 +16,7 @@ const dbank = () => {
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">DBANK</h2>
+          <h2 className="py-2">dbank</h2>
           <h3>HTML, CSS, Javascript, webpack, blockchain, Web3 and Motoko</h3>
         </div>
       </div>
@@ -26,8 +26,10 @@ const dbank = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-          This is a DeFi Project, where a bank called dbank is build with its functionality for depositing, withdrawing and compounding the money.</p>
-          <a href="https://github.com/Faudrey28/" target="_blank">
+            This is a DeFi Project, where a bank called dbank is built with its
+            functionality for depositing, withdrawing and compounding the money.
+          </p>
+          <a href="https://github.com/Faudrey28/dbank" target="_blank">
             <button className="px-8 py-2 mt-4">Code</button>
           </a>
         </div>
