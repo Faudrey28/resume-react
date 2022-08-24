@@ -1,4 +1,5 @@
 import Image from "next/image";
+import AftImg from "../public/assets/aft.webp";
 import Link from "next/link";
 import React, { useState, useEffect } from "react";
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
@@ -49,12 +50,7 @@ const Navbar = () => {
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Link href="/">
-          <Image
-            src="/../public/assets/aft.webp"
-            alt="/"
-            width="80"
-            height="30"
-          />
+          <Image src={AftImg} alt="/" width="80" height="30" />
         </Link>
         <div>
           <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
@@ -99,12 +95,7 @@ const Navbar = () => {
           <div>
             <div className="flex w-full items-center justify-between">
               <Link href="/">
-                <Image
-                  src="/../public/assets/aft.webp"
-                  alt="/"
-                  width="125"
-                  height="50"
-                />
+                <Image src={AftImg} alt="/" width="125" height="50" />
               </Link>
               <div
                 onClick={handleNav}
