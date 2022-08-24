@@ -1,9 +1,9 @@
 import Image from "next/image";
 import React from "react";
-import tindogImg from "../public/assets/projects/tindog.webp";
+import dbankImg from "../public/assets/projects/dbank.webp";
 import Link from "next/link";
 
-const tindog = () => {
+const dbank = () => {
   return (
     <div className="w-full">
       <div className="w-screen h-[30vh] lg:h-[40vh] relative">
@@ -12,12 +12,12 @@ const tindog = () => {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={tindogImg}
+          src={dbankImg}
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">Tindog</h2>
-          <h3>HTML, CSS and Bootstrap</h3>
+          <h2 className="py-2">dbank</h2>
+          <h3>HTML, CSS, Javascript, webpack, blockchain, Web3 and Motoko</h3>
         </div>
       </div>
 
@@ -26,13 +26,10 @@ const tindog = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            This is a simple web page for dogs. It is a Startup landing page for
-            a fictional application named TinDog. TinDog allows the user to find
-            other dogs & their owners nearby in the swipe left/right style made
-            famous by Tinder. We build it by using some basic technologies like
-            HTML, CSS and Bootstrap.
+            This is a DeFi Project, where a bank called dbank is built with its
+            functionality for depositing, withdrawing and compounding the money.
           </p>
-          <a href="https://github.com/Faudrey28/tindog" target="_blank">
+          <a href="https://github.com/Faudrey28/dbank" target="_blank">
             <button className="px-8 py-2 mt-4">Code</button>
           </a>
         </div>
@@ -44,4 +41,4 @@ const tindog = () => {
   );
 };
 
-export default tindog;
+export default dbank;
