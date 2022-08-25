@@ -29,7 +29,11 @@ const dbank = () => {
             This is a DeFi Project, where a bank called dbank is built with its
             functionality for depositing, withdrawing and compounding the money.
           </p>
-          <a href="https://github.com/Faudrey28/dbank" target="_blank">
+          <a
+            href="https://github.com/Faudrey28/dbank"
+            target="_blank"
+            rel="noreferrer"
+          >
             <button className="px-8 py-2 mt-4">Code</button>
           </a>
         </div>

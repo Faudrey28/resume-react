@@ -17,8 +17,8 @@ const About = () => {
             platforms remain a safe place for users and developers. I started to
             be really interested in knowing more about programming and how it
             works to better help developers. And in 2022, I earned my
-            certificate from "The complete 2022 Web Development Bootcamp by
-            Angela Yu".
+            certificate from &quot;The complete 2022 Web Development Bootcamp by
+            Angela Yu&quot;.
           </p>
         </div>
         <div className="w-6/12 h-auto m-auto shadow-md shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
