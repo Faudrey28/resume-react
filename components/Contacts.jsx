@@ -25,6 +25,8 @@ const Contacts = () => {
                   className="rounded-xl hover:scale-105 ease-in duration-300"
                   src="https://images.unsplash.com/photo-1602016736566-7ed6a58894bd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80"
                   alt="/"
+                  height="300em"
+                  width="450em"
                 />
               </div>
               <div>

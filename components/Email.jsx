@@ -20,7 +20,7 @@ const ContactForm = () => {
       return;
     }
 
-    let emailPromise = emailjs.sendForm(":)", ":)", e.target, ":)");
+    let emailPromise = emailjs.sendForm("service_8kioogl", "template_yhkt7xn", e.target, "0UoJhaPZFQCTcVaza");
 
     toast.promise(emailPromise, {
       pending: "Sending...",
