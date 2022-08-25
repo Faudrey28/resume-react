@@ -30,7 +30,11 @@ const keeper = () => {
             uses React Hooks, state, props, and array mapping to allow for the
             creation and deletion of notes.
           </p>
-          <a href="https://github.com/Faudrey28/todolist" target="_blank">
+          <a
+            href="https://github.com/Faudrey28/todolist"
+            target="_blank"
+            rel="noreferrer"
+          >
             <button className="px-8 py-2 mt-4">Code</button>
           </a>
         </div>

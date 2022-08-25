@@ -32,7 +32,11 @@ const tindog = () => {
             famous by Tinder. We build it by using some basic technologies like
             HTML, CSS and Bootstrap.
           </p>
-          <a href="https://github.com/Faudrey28/tindog" target="_blank">
+          <a
+            href="https://github.com/Faudrey28/tindog"
+            target="_blank"
+            rel="noreferrer"
+          >
             <button className="px-8 py-2 mt-4">Code</button>
           </a>
         </div>
